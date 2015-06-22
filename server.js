@@ -1,9 +1,9 @@
 'use strict';
 
 var express = require('express');
-var bodyparser = require("body-parser");
-var Adjective = require(./lib/adjective.js)
-var getRandomWord = require(./lib/getRandomWord.js)
+var bodyparser = require('body-parser');
+var Adjective = require('./lib/adjective.js')
+var getRandomWord = require('./lib/getRandomWord.js')
 var app = express();
 var port = process.env.PORT || 3000;
 //create .js file for Verb, Noun, postRandomword
