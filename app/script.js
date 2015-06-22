@@ -3,21 +3,21 @@
 $(function() {
 
   $("#name").on("click", function() {
-    $.get("http://localhost:3000/adjective", function(response) {
+    $.get("/adjective", function(response) {
       var adjective = response.word;
       $("#adjective").text(adjective);
   });
   });
 
   $("#name").on("click", function() {
-    $.get("http://localhost:3000/verb", function(response) {
+    $.get("/verb", function(response) {
       var verb = response.word;
       $("#verb").text(verb);
   });
   });
 
   $("#name").on("click", function() {
-    $.get("http://localhost:3000/noun", function(response) {
+    $.get("/noun", function(response) {
       var noun = response.word;
       $("#noun").text(noun);
     });

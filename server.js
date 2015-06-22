@@ -3,7 +3,6 @@
 var express = require('express');
 var bodyparser = require('body-parser');
 var Adjective = require('./lib/adjective.js');
-
 var getRandomWord = require('./lib/getrandomword.js');
 var app = express();
 var port = process.env.PORT || 3000;
